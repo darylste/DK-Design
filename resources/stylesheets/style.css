@@ -1,0 +1,42 @@
+/* Universal Styles*/
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #3F0854;
+}
+
+/* Nav Bar */
+.nav-bar {
+    display: flex;
+    background-color: #B3B3B3;
+    border-bottom: 2px solid #3F0854;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-bar img {
+    width: 10%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav li {
+    display: inline-flex;
+    margin-right: 15px;
+}
+
+.nav li a {
+    color: #9E15D4;
+
+}
