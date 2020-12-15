@@ -5,6 +5,9 @@ html {
 
 body {
     background-color: #3F0854;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: #9E15D4;
 }
 
 h1 {
@@ -12,19 +15,19 @@ h1 {
     font-family: 'PT Sans', sans-serif;
 }
 
-p {
-    font-family: 'Playfair Display', serif;
+.nav-bar,
+footer {
+    display: flex;
+    background-color: #B3B3B3;
+    position: fixed;
+    width: 100%;
+    left: 0;
 }
 
 /* Nav Bar */
 .nav-bar {
-    display: flex;
-    background-color: #B3B3B3;
-    border-bottom: 2px solid #3F0854;
-    position: fixed;
+    border-bottom: 2px solid seashell;
     top: 0;
-    left: 0;
-    width: 100%;
 }
 
 .nav-bar img {
@@ -45,9 +48,6 @@ p {
     margin-right: 15px;
 }
 
-.nav li a {
-    color: #9E15D4;
-}
 
 /* Header */
 .header {
@@ -60,4 +60,22 @@ p {
     background-color: hsla(0, 0%, 0% 0.9);
     padding-bottom: 0.4rem;
     color: hsl(283, 82%, 46%);
+}
+
+/* Footer */
+footer {
+    bottom: 0;
+    color: #551A8B;
+    border-top: 1px solid seashell;
+}
+
+.created {
+    width: 100%;
+    text-align: center;
+    font-size: 0, 75rem;
+}
+
+.contact {
+    font-size: 0.5rem;
+    margin-right: 10px;
 }
