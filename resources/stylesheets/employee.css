@@ -1,0 +1,33 @@
+/* Employee Section */
+.box {
+    display: flex;
+    text-align: center;
+}
+
+.employee-section {
+    top: 3rem;
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid seashell;
+}
+
+.employee-box {
+    display: flex;
+
+}
+
+.employee-text p {
+    margin-left: 10px;
+}
+
+.employee {
+    display: flex;
+    width: 50%;
+}
+
+.c,
+.d,
+.e {
+    display: none;
+}
