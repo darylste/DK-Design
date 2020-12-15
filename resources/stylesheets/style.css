@@ -7,6 +7,15 @@ body {
     background-color: #3F0854;
 }
 
+h1 {
+    font-size: 2.875rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
 /* Nav Bar */
 .nav-bar {
     display: flex;
@@ -19,7 +28,7 @@ body {
 }
 
 .nav-bar img {
-    width: 10%;
+    width: 4rem;
     height: auto;
     margin-left: 10px;
 }
@@ -38,5 +47,17 @@ body {
 
 .nav li a {
     color: #9E15D4;
+}
 
+/* Header */
+.header {
+    position: relative;
+    top: 2.7rem;
+    text-align: center;
+    margin: 0 1.25rem;
+    background-image: url("../images/background-header.jpg");
+    background-size: cover;
+    background-color: hsla(0, 0%, 0% 0.9);
+    padding-bottom: 0.4rem;
+    color: hsl(283, 82%, 46%);
 }
